@@ -1,100 +1,100 @@
 ```html
-<!- ->	Comentário: os comentários são exibidos apenas em código, não sendo mostrados no navegador	Suportado pelos principais navegadores*
-<!DOCTYPE>	Tipo de documento: define quais especificações que o documento segue	Suportado pelos principais navegadores*
+<!- ->	Comentário: os comentários são exibidos apenas em código, não sendo mostrados no navegador
+<!DOCTYPE>	Tipo de documento: define quais especificações que o documento segue
 
-<h1> à <h6>	Títulos, onde o valor 1 representa um título maior do que o valor 6	Suportado pelos principais navegadores*
-<p>	Parágrafo	Suportado pelos principais navegadores*
-<a>	Âncora: usado para ligar a outro recurso web	Suportado pelos principais navegadores*
-<abbr>	Abreviação	Suportado pelos principais navegadores*
-<address>	Endereço	Suportado pelos principais navegadores*
-<area>	Área	Suportado pelos principais navegadores*
-<article>	Elemento artigo	Suportado pelos principais navegadores*
-<aside>	Elemento à parte	Suportado pelos principais navegadores*
-<audio>	Conteúdo de som	Suportado pelos principais navegadores*
-<b>	Texto em negrito	Suportado pelos principais navegadores*
-<base>	Elemento base	Suportado pelos principais navegadores*
-<bdo>	Representa explicitamente a direção do texto	Suportado pelos principais navegadores*
-<blockquote>	Bloco de citação	Suportado pelos principais navegadores*
-<body>	Corpo da página	Suportado pelos principais navegadores*
-<br>	Insere uma quebra de linha	Suportado pelos principais navegadores*
-<button>	Botão	Suportado pelos principais navegadores*
-<canvas>	Utilizado para a renderização de gráficos	Suportado pelos principais navegadores*
-<caption>	Legenda da tabela	Suportado pelos principais navegadores*
-<cite>	Citação	Suportado pelos principais navegadores*
-<code>	Texto de código computacional	Suportado pelos principais navegadores*
-<col>	Coluna	Suportado pelos principais navegadores*
-<colgroup>	Grupo de colunas	Suportado pelos principais navegadores*
-<command>	Botão de comando	Suportado apenas pelo navegador Internet Explorer
-<datalist>	Lista suspensa	Suportado apenas pelos navegadores Firefox e Opera
-<dd>	Definição da descrição	Suportado pelos principais navegadores*
-<del>	Texto suprimido	Suportado pelos principais navegadores*
-<details>	Detalhes	Suportado apenas pelo Chrome
-<div>	Bloco de documento	Suportado pelos principais navegadores*
-<dl>	Lista de definição	Suportado pelos principais navegadores*
-<dt>	Termo de definição	Suportado pelos principais navegadores*
-<em>	Texto enfatizado	Suportado pelos principais navegadores*
-<embed>	Elemento embutido	Suportado pelos principais navegadores*
-<fieldset>	Grupo de campos	Suportado pelos principais navegadores*
-<figcaption>	Colocar legenda na imagem	Suportado pelos principais navegadores*
-<figure>	Figura	Suportado pelos principais navegadores*
-<footer>	Rodapé da página	Suportado pelos principais navegadores*
-<form>	Formulário	Suportado pelos principais navegadores*
-<head>	Cabeçalho principal do documento	Suportado pelos principais navegadores*
-<header>	Cabeçalho principal da página	Suportado pelos principais navegadores*
-<hgroup>	Grupo de títulos	Suportado pelos principais navegadores*
-<hr>	Linha horizontal	Suportado pelos principais navegadores*
-<html>	Raiz de um documento HTML	Suportado pelos principais navegadores*
-<i>	Texto em itálico	Suportado pelos principais navegadores*
-<iframe>	Janela de navegação aninhada	Suportado pelos principais navegadores*
-<img>	Inclui um imagem	Suportado pelos principais navegadores*
-<input>	Campo de entrada	Suportado pelos principais navegadores*
-<ins>	Texto inserido	Suportado pelos principais navegadores*
-<kbd>	Texto do teclado	Suportado pelos principais navegadores*
-<label>	Etiqueta	Suportado pelos principais navegadores*
-<legend>	Título de um grupo de controles formulário	Suportado pelos principais navegadores*
-<li>	Item de uma lista	Suportado pelos principais navegadores*
-<link>	Link de recursos	Suportado pelos principais navegadores*
-<map>	Mapa de imagens	Suportado pelos principais navegadores*
-<mark>	Marcação	Suportado pelos principais navegadores*
-<menu>	Menu de comandos	Não suportado
-<meta>	Define um meta-informação	Suportado pelos principais navegadores*
-<meter>	Elemento de medida	Suportado apenas pelo Ópera e Chrome
-<nav>	Elemento de navegação	Suportado pelos principais navegadores*
-<noscript>	Exibido se scripts estiver desativados	Suportado pelos principais navegadores*
-<object>	Objeto incorporado	Suportado pelos principais navegadores*
-<ol>	Lista ordenada	Suportado pelos principais navegadores*
-<optgroup>	Grupo de opções	Suportado pelos principais navegadores*
-<option>	Opção	Suportado pelos principais navegadores*
+<html>	    Raiz de um documento HTML
+<h1> à <h6>	Títulos, onde o valor 1 representa um título maior do que o valor 6
+<p>	        Parágrafo
+<a>	        Âncora: usado para ligar a outro recurso web
+<abbr>	    Abreviação
+<address>	Endereço
+<area>	    Área
+<article>	Elemento artigo
+<aside>	    Elemento à parte
+<audio>	    Conteúdo de som
+<b>	        Texto em negrito
+<base>	    Elemento base
+<bdo>	    Representa explicitamente a direção do texto
+<blockquote>	Bloco de citação
+<body>	    Corpo da página
+<br>	    Insere uma quebra de linha
+<button>	Botão
+<canvas>	Utilizado para a renderização de gráficos
+<caption>	Legenda da tabela
+<cite>	    Citação
+<code>	    Texto de código computacional
+<col>	    Coluna
+<colgroup>	Grupo de colunas
+<command>	Botão de comando
+<datalist>	Lista suspensa
+<dd>	    Definição da descrição
+<del>	    Texto suprimido
+<details>	Detalhes
+<div>	    Bloco de documento
+<dl>	    Lista de definição
+<dt>	    Termo de definição
+<em>	    Texto enfatizado
+<embed>	    Elemento embutido
+<fieldset>	Grupo de campos
+<figcaption>	Colocar legenda na imagem
+<figure>	Figura
+<footer>	Rodapé da página
+<form>	    Formulário
+<head>	    Cabeçalho principal do documento
+<header>	Cabeçalho principal da página
+<hgroup>	Grupo de títulos
+<hr>	    Linha horizontal
+<i>	        Texto em itálico
+<iframe>	Janela de navegação aninhada
+<img>	    Inclui um imagem
+<input>	    Campo de entrada
+<ins>	    Texto inserido
+<kbd>	    Texto do teclado
+<label>	    Etiqueta
+<legend>	Título de um grupo de controles formulário
+<li>	    Item de uma lista
+<link>	    Link de recursos
+<map>	    Mapa de imagens
+<mark>	    Marcação
+<menu>	    Menu de comandos	Não suportado
+<meta>	    Define um meta-informação
+<meter>	    Elemento de medida	e Chrome
+<nav>	    Elemento de navegação
+<noscript>	Exibido se scripts estiver desativados
+<object>	Objeto incorporado
+<ol>	    Lista ordenada
+<optgroup>	Grupo de opções
+<option>	Opção
 <output>	Resultado/saída de um cálculo	Não suportado pelo Explorer
-<param>	Define parâmetro de plugins invocados pelos elementos object, não representando nada por si só	Suportado pelos principais navegadores*
-<pre>	Texto pré-formatado	Suportado pelos principais navegadores*
-<progress>	Progresso da conclusão de uma ação, como por exemplo um download	Não suportado pelo Explorer e pelo Safari
-<q>	Breve citação	Suportado pelos principais navegadores*
-<ruby>	Anotação ruby	Suportado pelos principais navegadores*
-<rp>	Parenteses de texto ruby	Suportado pelos principais navegadores*
-<rt>	Componentes de texto ruby	Suportado pelos principais navegadores*
-<samp>	Amostra de programa ou sistema de computação	Suportado pelos principais navegadores*
-<script>	Representa um script	Suportado pelos principais navegadores*
-<section>	Seção do documento	Suportado pelos principais navegadores*
-<select>	Lista selecionável	Suportado pelos principais navegadores*
-<small>	Texto pequeno	Exemplo
-<source>	Permite indicar diversas fontes para elentos de midia	Suportado pelos principais navegadores*
-<span>	Utilizado para um elemento dentro do fluxo de texto	Suportado pelos principais navegadores*
-<strong>	Texto grande	Suportado pelos principais navegadores*
-<style>	Define um estilo	Suportado pelos principais navegadores*
-<sub>	Texto com subscrição	Suportado pelos principais navegadores*
-<sup>	Texto sobrescrito	Suportado pelos principais navegadores*
-<tbody>	Corpo da tabela	Suportado pelos principais navegadores*
-<td>	Célula da tabela	Suportado pelos principais navegadores*
-<textarea>	Área de texto	Suportado pelos principais navegadores*
-<tfoot>	Rodapé da tabela	Suportado pelos principais navegadores*
-<th>	Célula de cabeçalho da tabela	Suportado pelos principais navegadores*
-<thead>	Representa o cabeçalho da tabela	Suportado pelos principais navegadores*
-<time>	Indica horas	Não suportado
-<title>	Título da pagina	Suportado pelos principais navegadores*
-<tr>	Linha da tabela	Suportado pelos principais navegadores*
-<ul>	Lista não ordenada	Suportado pelos principais navegadores*
-<var>	Variável	Suportado pelos principais navegadores*
-<video>	Elemento de vídeo ou filme	Suportado pelos principais navegadores*
+<param>	    Define parâmetro de plugins invocados pelos elementos object, não representando nada por si só
+<pre>	    Texto pré-formatado
+<progress>	Progresso da conclusão de uma ação, como por exemplo um download
+<q>	        Breve citação
+<ruby>	    Anotação ruby
+<rp>	    Parenteses de texto ruby
+<rt>	    Componentes de texto ruby
+<samp>	    Amostra de programa ou sistema de computação
+<script>	Representa um script
+<section>	Seção do documento
+<select>	Lista selecionável
+<small>	    Texto pequeno	Exemplo
+<source>	Permite indicar diversas fontes para elentos de midia
+<span>	    Utilizado para um elemento dentro do fluxo de texto
+<strong>	Texto grande
+<style>	    Define um estilo
+<sub>	    Texto com subscrição
+<sup>	    Texto sobrescrito
+<tbody>	    Corpo da tabela
+<td>	    Célula da tabela
+<textarea>	Área de texto
+<tfoot>	    Rodapé da tabela
+<th>	    Célula de cabeçalho da tabela
+<thead>	    Representa o cabeçalho da tabela
+<time>	    Indica horas	Não suportado
+<title>	    Título da pagina
+<tr>	    Linha da tabela
+<ul>	    Lista não ordenada
+<var>	    Variável
+<video>	    Elemento de vídeo ou filme
 
 ```
