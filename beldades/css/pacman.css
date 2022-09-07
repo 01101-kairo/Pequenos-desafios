@@ -1,0 +1,29 @@
+h1{
+    color:yellow;
+    text-shadow:0 0 18px blue,
+        0 0 18px blue
+}
+body{
+    background-color:black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+}
+div{
+    margin: 0 auto;
+}
+.pacman{
+    border-top: 60px solid yellow;
+    border-left:60px solid yellow;
+    border-bottom:60px solid yellow;
+    border-right: 60px solid transparent;
+    width:0px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}

@@ -1,0 +1,60 @@
+body{
+	background:#3b4252;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.contaner{
+	display:grid;
+	grid-template-columns:20px 20px 20px;
+	grid-template-rows:20px 20px 20px;
+	gap: 0 2px;
+	color: #000
+
+}
+.toggle{
+	position: relative;
+	height:40px;
+	grid-column: 2;
+	grid-row:1/3;
+	border:1px solid #000;
+	border-radius:20px;
+	box-sizing:border-box;
+	cursor:pointer;
+	transition: .2s
+}
+.circle{
+	position:absolute;
+	top:0;
+	width:16px;
+	height:16px;
+	margin:1px;
+	border-radius:20px;
+	border:2px solid #000;
+	box-sizing:border-box;
+	transition:.2s
+}
+.toggle:hover .circle{
+	top:20px;
+	transition:.2s;
+	box-shadow:0 0 10px #5271ff,
+	inset 0 0 10px #5271ff
+}
+.toggle:hover{
+	border-color:#fff;
+	transition:.2s;
+	box-shadow:0 0 10px #5271ff,
+	inset 0 0 10px #5271ff
+}
+.open{
+	transition:.2s;
+	display: flex;
+	align-items: flex-end
+}
+.toggle:hover ~  .open{
+	color:#fff;
+	text-shadow:0 0 8px #5271ff,
+	0 0 8px #5271ff
+}
