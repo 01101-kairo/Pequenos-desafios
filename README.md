@@ -1,6 +1,7 @@
 ```
 <!- ->	Comentário: os comentários são exibidos apenas em código, não sendo mostrados no navegador	Suportado pelos principais navegadores*
 <!DOCTYPE>	Tipo de documento: define quais especificações que o documento segue	Suportado pelos principais navegadores*
+
 <a>	Âncora: usado para ligar a outro recurso web	Suportado pelos principais navegadores*
 <abbr>	Abreviação	Suportado pelos principais navegadores*
 <address>	Endereço	Suportado pelos principais navegadores*
