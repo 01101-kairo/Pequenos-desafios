@@ -56,16 +56,16 @@
 <link>	    Link de recursos
 <map>	    Mapa de imagens
 <mark>	    Marcação
-<menu>	    Menu de comandos	Não suportado
+<menu>	    Menu de comandos	
 <meta>	    Define um meta-informação
-<meter>	    Elemento de medida	e Chrome
+<meter>	    Elemento de medida
 <nav>	    Elemento de navegação
 <noscript>	Exibido se scripts estiver desativados
 <object>	Objeto incorporado
 <ol>	    Lista ordenada
 <optgroup>	Grupo de opções
 <option>	Opção
-<output>	Resultado/saída de um cálculo	Não suportado pelo Explorer
+<output>	Resultado/saída de um cálculo
 <param>	    Define parâmetro de plugins invocados pelos elementos object, não representando nada por si só
 <pre>	    Texto pré-formatado
 <progress>	Progresso da conclusão de uma ação, como por exemplo um download
@@ -77,7 +77,7 @@
 <script>	Representa um script
 <section>	Seção do documento
 <select>	Lista selecionável
-<small>	    Texto pequeno	Exemplo
+<small>	    Texto pequeno	
 <source>	Permite indicar diversas fontes para elentos de midia
 <span>	    Utilizado para um elemento dentro do fluxo de texto
 <strong>	Texto grande
@@ -90,7 +90,7 @@
 <tfoot>	    Rodapé da tabela
 <th>	    Célula de cabeçalho da tabela
 <thead>	    Representa o cabeçalho da tabela
-<time>	    Indica horas	Não suportado
+<time>	    Indica horas	
 <title>	    Título da pagina
 <tr>	    Linha da tabela
 <ul>	    Lista não ordenada
