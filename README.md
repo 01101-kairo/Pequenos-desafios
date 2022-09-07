@@ -1,7 +1,9 @@
-```
+```html
 <!- ->	Comentário: os comentários são exibidos apenas em código, não sendo mostrados no navegador	Suportado pelos principais navegadores*
 <!DOCTYPE>	Tipo de documento: define quais especificações que o documento segue	Suportado pelos principais navegadores*
 
+<h1> à <h6>	Títulos, onde o valor 1 representa um título maior do que o valor 6	Suportado pelos principais navegadores*
+<p>	Parágrafo	Suportado pelos principais navegadores*
 <a>	Âncora: usado para ligar a outro recurso web	Suportado pelos principais navegadores*
 <abbr>	Abreviação	Suportado pelos principais navegadores*
 <address>	Endereço	Suportado pelos principais navegadores*
@@ -37,7 +39,6 @@
 <figure>	Figura	Suportado pelos principais navegadores*
 <footer>	Rodapé da página	Suportado pelos principais navegadores*
 <form>	Formulário	Suportado pelos principais navegadores*
-<h1> à <h6>	Títulos, onde o valor 1 representa um título maior do que o valor 6	Suportado pelos principais navegadores*
 <head>	Cabeçalho principal do documento	Suportado pelos principais navegadores*
 <header>	Cabeçalho principal da página	Suportado pelos principais navegadores*
 <hgroup>	Grupo de títulos	Suportado pelos principais navegadores*
@@ -65,7 +66,6 @@
 <optgroup>	Grupo de opções	Suportado pelos principais navegadores*
 <option>	Opção	Suportado pelos principais navegadores*
 <output>	Resultado/saída de um cálculo	Não suportado pelo Explorer
-<p>	Parágrafo	Suportado pelos principais navegadores*
 <param>	Define parâmetro de plugins invocados pelos elementos object, não representando nada por si só	Suportado pelos principais navegadores*
 <pre>	Texto pré-formatado	Suportado pelos principais navegadores*
 <progress>	Progresso da conclusão de uma ação, como por exemplo um download	Não suportado pelo Explorer e pelo Safari
