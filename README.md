@@ -24,6 +24,7 @@
 <em>	    Texto enfatizado
 
 <img>	    Inclui um imagem
+<figure>	Figura
 <figcaption>	Colocar legenda na imagem
 <audio>	    Conteúdo de som
 <video>	    Elemento de vídeo ou filme
@@ -32,6 +33,7 @@
 <bdo>	    Representa explicitamente a direção do texto
 <blockquote>	Bloco de citação
 <br>	    Insere uma quebra de linha
+
 <caption>	Legenda da tabela
 <tbody>	    Corpo da tabela
 <td>	    Célula da tabela
@@ -39,6 +41,7 @@
 <th>	    Célula de cabeçalho da tabela
 <thead>	    Representa o cabeçalho da tabela
 <tr>	    Linha da tabela
+
 <button>	Botão
 <canvas>	Utilizado para a renderização de gráficos
 <textarea>	Área de texto
@@ -48,12 +51,14 @@
 <col>	    Coluna
 <colgroup>	Grupo de colunas
 <command>	Botão de comando
+
 <datalist>	Lista suspensa
 <dl>	    Lista de definição
 <li>	    Item de uma lista
 <ol>	    Lista ordenada
 <select>	Lista selecionável
 <ul>	    Lista não ordenada
+
 <dd>	    Definição da descrição
 <del>	    Texto suprimido
 <details>	Detalhes
@@ -61,7 +66,6 @@
 <dt>	    Termo de definição
 <embed>	    Elemento embutido
 <fieldset>	Grupo de campos
-<figure>	Figura
 <footer>	Rodapé da página
 <form>	    Formulário
 <hgroup>	Grupo de títulos
