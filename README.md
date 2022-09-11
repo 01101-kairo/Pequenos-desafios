@@ -1,5 +1,5 @@
 ```html
-<!- ->	Comentário: os comentários são exibidos apenas em código, não sendo mostrados no navegador
+<!-- -->	Comentário
 <!DOCTYPE>	Tipo de documento: define quais especificações que o documento segue
 
 <html>	    Raiz de um documento HTML
