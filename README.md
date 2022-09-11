@@ -1,5 +1,5 @@
 ```html
-<!- ->	Comentário
+<!-- -->	Comentário
 <!DOCTYPE>	Tipo de documento: define quais especificações que o documento segue
 
 <html>	    Raiz de um documento HTML
@@ -28,9 +28,17 @@
 <bdo>	    Representa explicitamente a direção do texto
 <blockquote>	Bloco de citação
 <br>	    Insere uma quebra de linha
+<caption>	Legenda da tabela
+<tbody>	    Corpo da tabela
+<td>	    Célula da tabela
+<tfoot>	    Rodapé da tabela
+<th>	    Célula de cabeçalho da tabela
+<thead>	    Representa o cabeçalho da tabela
+<tr>	    Linha da tabela
 <button>	Botão
 <canvas>	Utilizado para a renderização de gráficos
-<caption>	Legenda da tabela
+<textarea>	Área de texto
+<time>	    Indica horas
 <cite>	    Citação
 <code>	    Texto de código computacional
 <col>	    Coluna
@@ -62,7 +70,7 @@
 <legend>	Título de um grupo de controles formulário
 <map>	    Mapa de imagens
 <mark>	    Marcação
-<menu>	    Menu de comandos	
+<menu>	    Menu de comandos
 <meter>	    Elemento de medida
 <nav>	    Elemento de navegação
 <noscript>	Exibido se scripts estiver desativados
@@ -76,21 +84,13 @@
 <q>	        Breve citação
 <samp>	    Amostra de programa ou sistema de computação
 <section>	Seção do documento
-<small>	    Texto pequeno	
+<small>	    Texto pequeno
 <source>	Permite indicar diversas fontes para elentos de midia
 <span>	    Utilizado para um elemento dentro do fluxo de texto
 <strong>	Texto grande
 <style>	    Define um estilo
 <sub>	    Texto com subscrição
 <sup>	    Texto sobrescrito
-<tbody>	    Corpo da tabela
-<td>	    Célula da tabela
-<textarea>	Área de texto
-<tfoot>	    Rodapé da tabela
-<th>	    Célula de cabeçalho da tabela
-<thead>	    Representa o cabeçalho da tabela
-<time>	    Indica horas	
-<tr>	    Linha da tabela
 <var>	    Variável
 
 <audio>	    Conteúdo de som
