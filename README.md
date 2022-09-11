@@ -4,9 +4,14 @@
 
 <html>	    Raiz de um documento HTML
 <head>	    Cabeçalho principal do documento
+<meta>	    Define um meta-informação
+<link>	    Link de recursos
+<title>	    Título da pagina
+<script>	Representa um script
+
 <header>	Cabeçalho principal da página
 <body>	    Corpo da página
-<h1> à <h6>	Títulos, onde o valor 1 representa um título maior do que o valor 6
+<h1> à <h6>	Títulos, onde o valor representa importancia
 <p>	        Parágrafo
 <a>	        Âncora: usado para ligar a outro recurso web
 <abbr>	    Abreviação
@@ -15,7 +20,10 @@
 <article>	Elemento artigo
 <aside>	    Elemento à parte
 <b>	        Texto em negrito
+<i>	        Texto em itálico
 <em>	    Texto enfatizado
+<img>	    Inclui um imagem
+<figcaption>	Colocar legenda na imagem
 <base>	    Elemento base
 <bdo>	    Representa explicitamente a direção do texto
 <blockquote>	Bloco de citação
@@ -41,25 +49,20 @@
 <dt>	    Termo de definição
 <embed>	    Elemento embutido
 <fieldset>	Grupo de campos
-<figcaption>	Colocar legenda na imagem
 <figure>	Figura
 <footer>	Rodapé da página
 <form>	    Formulário
 <hgroup>	Grupo de títulos
 <hr>	    Linha horizontal
-<i>	        Texto em itálico
 <iframe>	Janela de navegação aninhada
-<img>	    Inclui um imagem
 <input>	    Campo de entrada
 <ins>	    Texto inserido
 <kbd>	    Texto do teclado
 <label>	    Etiqueta
 <legend>	Título de um grupo de controles formulário
-<link>	    Link de recursos
 <map>	    Mapa de imagens
 <mark>	    Marcação
 <menu>	    Menu de comandos	
-<meta>	    Define um meta-informação
 <meter>	    Elemento de medida
 <nav>	    Elemento de navegação
 <noscript>	Exibido se scripts estiver desativados
@@ -72,7 +75,6 @@
 <progress>	Progresso da conclusão de uma ação, como por exemplo um download
 <q>	        Breve citação
 <samp>	    Amostra de programa ou sistema de computação
-<script>	Representa um script
 <section>	Seção do documento
 <small>	    Texto pequeno	
 <source>	Permite indicar diversas fontes para elentos de midia
@@ -88,7 +90,6 @@
 <th>	    Célula de cabeçalho da tabela
 <thead>	    Representa o cabeçalho da tabela
 <time>	    Indica horas	
-<title>	    Título da pagina
 <tr>	    Linha da tabela
 <var>	    Variável
 
