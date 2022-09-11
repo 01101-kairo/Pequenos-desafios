@@ -67,7 +67,7 @@
 <optgroup>	Grupo de opções
 <option>	Opção
 <output>	Resultado/saída de um cálculo
-<param>	    Define parâmetro de plugins invocados pelos elementos object, não representando nada por si só
+<param>	    Define parâmetro de plugins invocados pelos elementos object
 <pre>	    Texto pré-formatado
 <progress>	Progresso da conclusão de uma ação, como por exemplo um download
 <q>	        Breve citação
