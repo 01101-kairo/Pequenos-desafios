@@ -10,9 +10,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3em;
+  padding: 2em;
 }
-
+@media screen and (max-width: 600px) {
+  body {
+    padding: 6em 1em;
+  }
+}
 #calc {
   border-radius: 5px;
   width: 400px;
@@ -24,7 +28,7 @@ body {
 }
 
 #calc h3 {
-  font-size: 0.8em;
+  font-size: 1.8em;
   font-weight: 300;
   color: white;
 }
@@ -41,6 +45,7 @@ body {
 }
 #previous-operation {
   color: rgb(70, 218, 107);
+  font-size: 1.8em;
 }
 
 #current-operation {

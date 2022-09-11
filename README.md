@@ -1,8 +1,11 @@
 ```html
-<!-- -->	Comentário
+<!- ->	Comentário
 <!DOCTYPE>	Tipo de documento: define quais especificações que o documento segue
 
 <html>	    Raiz de um documento HTML
+<head>	    Cabeçalho principal do documento
+<header>	Cabeçalho principal da página
+<body>	    Corpo da página
 <h1> à <h6>	Títulos, onde o valor 1 representa um título maior do que o valor 6
 <p>	        Parágrafo
 <a>	        Âncora: usado para ligar a outro recurso web
@@ -11,12 +14,11 @@
 <area>	    Área
 <article>	Elemento artigo
 <aside>	    Elemento à parte
-<audio>	    Conteúdo de som
 <b>	        Texto em negrito
+<em>	    Texto enfatizado
 <base>	    Elemento base
 <bdo>	    Representa explicitamente a direção do texto
 <blockquote>	Bloco de citação
-<body>	    Corpo da página
 <br>	    Insere uma quebra de linha
 <button>	Botão
 <canvas>	Utilizado para a renderização de gráficos
@@ -27,21 +29,22 @@
 <colgroup>	Grupo de colunas
 <command>	Botão de comando
 <datalist>	Lista suspensa
+<dl>	    Lista de definição
+<li>	    Item de uma lista
+<ol>	    Lista ordenada
+<select>	Lista selecionável
+<ul>	    Lista não ordenada
 <dd>	    Definição da descrição
 <del>	    Texto suprimido
 <details>	Detalhes
 <div>	    Bloco de documento
-<dl>	    Lista de definição
 <dt>	    Termo de definição
-<em>	    Texto enfatizado
 <embed>	    Elemento embutido
 <fieldset>	Grupo de campos
 <figcaption>	Colocar legenda na imagem
 <figure>	Figura
 <footer>	Rodapé da página
 <form>	    Formulário
-<head>	    Cabeçalho principal do documento
-<header>	Cabeçalho principal da página
 <hgroup>	Grupo de títulos
 <hr>	    Linha horizontal
 <i>	        Texto em itálico
@@ -52,7 +55,6 @@
 <kbd>	    Texto do teclado
 <label>	    Etiqueta
 <legend>	Título de um grupo de controles formulário
-<li>	    Item de uma lista
 <link>	    Link de recursos
 <map>	    Mapa de imagens
 <mark>	    Marcação
@@ -62,7 +64,6 @@
 <nav>	    Elemento de navegação
 <noscript>	Exibido se scripts estiver desativados
 <object>	Objeto incorporado
-<ol>	    Lista ordenada
 <optgroup>	Grupo de opções
 <option>	Opção
 <output>	Resultado/saída de um cálculo
@@ -70,13 +71,9 @@
 <pre>	    Texto pré-formatado
 <progress>	Progresso da conclusão de uma ação, como por exemplo um download
 <q>	        Breve citação
-<ruby>	    Anotação ruby
-<rp>	    Parenteses de texto ruby
-<rt>	    Componentes de texto ruby
 <samp>	    Amostra de programa ou sistema de computação
 <script>	Representa um script
 <section>	Seção do documento
-<select>	Lista selecionável
 <small>	    Texto pequeno	
 <source>	Permite indicar diversas fontes para elentos de midia
 <span>	    Utilizado para um elemento dentro do fluxo de texto
@@ -93,8 +90,15 @@
 <time>	    Indica horas	
 <title>	    Título da pagina
 <tr>	    Linha da tabela
-<ul>	    Lista não ordenada
 <var>	    Variável
+
+<audio>	    Conteúdo de som
 <video>	    Elemento de vídeo ou filme
+```
+
+```html
+<ruby>	    Anotação ruby
+<rp>	    Parenteses de texto ruby
+<rt>	    Componentes de texto ruby
 
 ```
