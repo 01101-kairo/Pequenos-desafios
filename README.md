@@ -22,8 +22,12 @@
 <b>	        Texto em negrito
 <i>	        Texto em itálico
 <em>	    Texto enfatizado
+
 <img>	    Inclui um imagem
 <figcaption>	Colocar legenda na imagem
+<audio>	    Conteúdo de som
+<video>	    Elemento de vídeo ou filme
+
 <base>	    Elemento base
 <bdo>	    Representa explicitamente a direção do texto
 <blockquote>	Bloco de citação
@@ -92,9 +96,6 @@
 <sub>	    Texto com subscrição
 <sup>	    Texto sobrescrito
 <var>	    Variável
-
-<audio>	    Conteúdo de som
-<video>	    Elemento de vídeo ou filme
 ```
 
 ```html
