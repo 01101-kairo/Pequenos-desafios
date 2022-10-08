@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>Web Developer</title>
+    <title>Web pag</title>
     <meta charset="UTF-8" />
     <meta name="description" content="Portifolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,24 +21,63 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/8a6c890b96.js" crossorigin="anonymous" defer></script>
+
+    <!-- Icons only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <!-- JavaScript Bundle with Popper -->
+
     <link rel="icon" href="img/favicon.png">
 
 
     <style>
+        img {
+            width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-weight: bold;
+        }
+
+        ul,
+        ol {
+            margin: 0 !important;
+            padding: 0 !important;
+            list-style: none;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 500;
+            margin: 15px 0 10px 0;
+        }
+
+        .conteudo-extra {
+            background-color: #C2C4BE;
+        }
+
         .extra {
             background-color: #f7f7f9;
         }
 
-        ul.noticias li img {
+        ul li img {
             width: 70px;
             height: auto;
             margin-right: 10px;
             float: left;
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
+        footer {
+            padding: 20px 0;
+            text-align: center;
+            font-weight: 100;
         }
 
     </style>
@@ -46,11 +85,11 @@
 
 <body>
 
-    <header class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top ">
+    <header class="navbar navbar-expand-md navbar-dark bg-dark sticky-top ">
         <nav class=" container">
             <a class="navbar-brand" href="#">
-                <img src="img/favicon.png" alt="foto do rosto do desenvolvedor" loading="lazy" width="36w"
-                    height="36w" /> Web Develop
+                <img style="width: 36px;" src="img/favicon.png" alt="foto do rosto do desenvolvedor" loading="lazy"
+                    width="36w" height="36w" /> Kairo
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,20 +104,20 @@
                             <i class="fa-solid fa-house"></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="clientes.html">
+                        <a class="nav-link" href="#clientes">
                             <i class="fas fa-user"></i> clientes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="servicos.html">
+                        <a class="nav-link" href="#servicos">
                             <i class="fas fa-briefcase"></i> serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sobre.html">
+                        <a class="nav-link" href="#sobre">
                             <i class="fas fa-address-card"></i> sobre</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="contato.html">
+                        <a class="nav-link" href="#contato">
                             <i class="far fa-paper-plane"></i> contato</a>
                     </li>
                 </ul>
@@ -90,9 +129,9 @@
         <div class="extra">
             <div class="container">
                 <section class="row">
-                    <div class="col-3 sidebar">
+                    <div class="col-md-3">
                         <h3>cliente</h3>
-                        <ul class="sem-marcador sem-padding">
+                        <ul>
                             <li><a href="">Nome da Empresa 1</a></li>
                             <li><a href="">Nome da Empresa 2</a></li>
                             <li><a href="">Nome da Empresa 3</a></li>
@@ -101,12 +140,14 @@
                             <li><a href="">Nome da Empresa 6</a></li>
                             <li><a href="">Nome da Empresa 7</a></li>
                         </ul>
-                        <a href="cliente.html" class="botao">Ver todos &raquo;</a>
+
+                        <a href="#cliente" class="mt-3 btn btn-primary btn-sm">Ver todos &raquo;</a>
                     </div>
-                    <div class="col-9">
+                    <div class="col-md-9">
                         <h2>Útimo trabslho: <em>Em nada 123</em></h2>
-                        <img src="img/thumb-grande.jpg" alt="" />
-                        <p>texto aleatorio:-Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e tarefa
+                        <img class="mb-2" src="img/thumb-grande.jpg" alt="Caixa de feramentas" />
+                        <p>
+                            texto aleatorio:-Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e tarefa
                             feminina o
                             homem cultiva a mandioca, mas a partir da colheita as tarefas da roça passam pra as
                             mulheres,
@@ -115,74 +156,217 @@
                             na água corrente do rio e depois começam a processar os alimentos, primeiro transformando a
                             mandioca
                             em polvilho, depois o polvilho vira uma massa quentinha</p>
-                        <a href="clientes.html" class="botao">Ver outros trabalhos &raquo;</a>
+                        <a href="#clientes" class="mb-2 btn btn-primary btn-sm">Ver outros trabalhos &raquo;</a>
                     </div>
                 </section>
             </div>
         </div>
 
-        <div class="bg-secondary text-white">
-            <div class="container row">
-                <div class="col-7">
-                    <section>
-                        <h2>como um site pode ajudar sua empresa?</h2>
-                        <p>
-                            texto aleatorio:-Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e tarefa
-                            feminina o
-                            homem cultiva a mandioca, mas a partir da colheita as tarefas da roça passam pra as
-                            mulheres,
-                            são elas que carregam as raízes, lavam a
-                            mandioca na água corrente do rio e depois começam a processar os alimentos, primeiro
-                            transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
-                        <p>
-                            texto aleatorio:-Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e tarefa
-                            feminina o
-                            homem cultiva a mandioca, mas a partir da colheita as tarefas da roça passam pra as
-                            mulheres,
-                            são elas que carregam as raízes, lavam a
-                            mandioca na água corrente do rio e depois começam a processar os alimentos, primeiro
-                            transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
-                        <p>
-                            texto aleatorio:-Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e tarefa
-                            feminina o
-                            homem cultiva a mandioca, mas a partir da colheita as tarefas da roça passam pra as
-                            mulheres,
-                            são elas que carregam as raízes, lavam a
-                            mandioca na água corrente do rio e depois começam a processar os alimentos, primeiro
-                            transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
+        <div class="conteudo-extra">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <section>
+                            <h2>como um site pode ajudar sua empresa?</h2>
+                            <p>
+                                texto aleatorio:-Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e tarefa
+                                feminina o
+                                homem cultiva a mandioca, mas a partir da colheita as tarefas da roça passam pra as
+                                mulheres,
+                                são elas que carregam as raízes, lavam a
+                                mandioca na água corrente do rio e depois começam a processar os alimentos, primeiro
+                                transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
+                            <p>
+                                texto aleatorio:-Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e tarefa
+                                feminina o
+                                homem cultiva a mandioca, mas a partir da colheita as tarefas da roça passam pra as
+                                mulheres,
+                                são elas que carregam as raízes, lavam a
+                                mandioca na água corrente do rio e depois começam a processar os alimentos, primeiro
+                                transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
+                            <p>
+                                texto aleatorio:-Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e tarefa
+                                feminina o
+                                homem cultiva a mandioca, mas a partir da colheita as tarefas da roça passam pra as
+                                mulheres,
+                                são elas que carregam as raízes, lavam a
+                                mandioca na água corrente do rio e depois começam a processar os alimentos, primeiro
+                                transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
+                        </section>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>Útimas noticias</h3>
+                        <ul>
+                            <li>
+                                <img src="img/thumb-pequena.jpg" alt="" />
+                                <h4>Título da notícia </h4>
+                                <p>
+                                    texto aleatorio:-Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e
+                                    tarefa
+                                    feminina o homem cultiva a mandioca, mas a partir da colheita as tarefas da roça
+                                    passam
+                                    pra
+                                    as mulheres, são elas que carregam as raízes, lavam
+                                    a mandioca na água corrente do rio e depois começam a processar os alimentos,
+                                    primeiro
+                                    transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha <a
+                                        href="">Leia mais &raquo;</a></p>
+                            </li>
+                            <li>
+                                <img src="img/thumb-pequena.jpg" alt="" />
+                                <h4>Título da notícia </h4>
+                                <p>
+                                    texto aleatorio:-Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e
+                                    tarefa
+                                    feminina o homem cultiva a mandioca, mas a partir da colheita as tarefas da roça
+                                    passam
+                                    pra
+                                    as mulheres, são elas que carregam as raízes, lavam
+                                    a mandioca na água corrente do rio e depois começam a processar os alimentos,
+                                    primeiro
+                                    transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha <a
+                                        href="">Leia mais &raquo;</a></p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a name="clientes"></a>
+                    <div>
+                        <section class="row">
+                            <h2>Veja quem já contrtou nossos serviços</h2>
+                            <div class="col-lg-6">
+                                <h4>Nome da Empresa 1</h4><img src="img/thumb-grande.jpg" alt="" />
+                                <p>texto aleatório: -Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e
+                                    tarefa feminina o homem cultiva a mandioca, mas a partir da colheita as tarefas da
+                                    roça passam pra as mulheres, são elas que carregam as raízes, lavam a mandioca
+                                    na água corrente do rio e depois começam a processar os alimentos, primeiro
+                                    transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <h4>Nome da Empresa 2</h4><img src="img/thumb-grande.jpg" alt="" />
+                                <p>texto aleatório: -Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e
+                                    tarefa feminina o homem cultiva a mandioca, mas a partir da colheita as tarefas da
+                                    roça passam pra as mulheres, são elas que carregam as raízes, lavam a mandioca
+                                    na água corrente do rio e depois começam a processar os alimentos, primeiro
+                                    transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <h4>Nome da Empresa 3</h4><img src="img/thumb-grande.jpg" alt="" />
+                                <p>texto aleatório: -Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e
+                                    tarefa feminina o homem cultiva a mandioca, mas a partir da colheita as tarefas da
+                                    roça passam pra as mulheres, são elas que carregam as raízes, lavam a mandioca
+                                    na água corrente do rio e depois começam a processar os alimentos, primeiro
+                                    transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <h4>Nome da Empresa 4</h4><img src="img/thumb-grande.jpg" alt="" />
+                                <p>texto aleatório: -Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e
+                                    tarefa feminina o homem cultiva a mandioca, mas a partir da colheita as tarefas da
+                                    roça passam pra as mulheres, são elas que carregam as raízes, lavam a mandioca
+                                    na água corrente do rio e depois começam a processar os alimentos, primeiro
+                                    transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <h4>Nome da Empresa 5</h4><img src="img/thumb-grande.jpg" alt="" />
+                                <p>texto aleatório: -Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e
+                                    tarefa feminina o homem cultiva a mandioca, mas a partir da colheita as tarefas da
+                                    roça passam pra as mulheres, são elas que carregam as raízes, lavam a mandioca
+                                    na água corrente do rio e depois começam a processar os alimentos, primeiro
+                                    transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <h4>Nome da Empresa 6</h4><img src="img/thumb-grande.jpg" alt="" />
+                                <p>texto aleatório: -Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e
+                                    tarefa feminina o homem cultiva a mandioca, mas a partir da colheita as tarefas da
+                                    roça passam pra as mulheres, são elas que carregam as raízes, lavam a mandioca
+                                    na água corrente do rio e depois começam a processar os alimentos, primeiro
+                                    transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <h4>Nome da Empresa 7</h4><img src="img/thumb-grande.jpg" alt="" />
+                                <p>texto aleatório: -Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e
+                                    tarefa feminina o homem cultiva a mandioca, mas a partir da colheita as tarefas da
+                                    roça passam pra as mulheres, são elas que carregam as raízes, lavam a mandioca
+                                    na água corrente do rio e depois começam a processar os alimentos, primeiro
+                                    transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <h4>Nome da Empresa 8</h4><img src="img/thumb-grande.jpg" alt="" />
+                                <p>texto aleatório: -Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e
+                                    tarefa feminina o homem cultiva a mandioca, mas a partir da colheita as tarefas da
+                                    roça passam pra as mulheres, são elas que carregam as raízes, lavam a mandioca
+                                    na água corrente do rio e depois começam a processar os alimentos, primeiro
+                                    transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha</p>
+                            </div>
+                        </section>
+                    </div>
+
+                    <a name="servicos"></a>
+
+                    <a name="sobre"></a>
+
+                    <a name="contato"></a>
+                    <section class="row">
+                        <div class="col-lg-5 sidebar">
+                            <h3>localização</h3>
+                            <img src="img/mapa.jpg" alt="imagem map">
+                            <ul>
+                                <li>Rua 555</li>
+                                <li>bairo</li>
+                                <li>cidade -ES</li>
+                            </ul>
+                            <h3>Contato direto</h3>
+                            <ul>
+                                <li>Fone:<strong> (00) 9999-8888</strong></li>
+                                <li>Email:<strong> email@colocar.email</strong></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-7 contato">
+                            <h2>Envie uma mensagem</h2>
+
+                            <form action="">
+                                <div class="input-group m-2">
+                                    <div class="form-floating">
+                                        <input type="text" name="email" id="email" class="form-control"
+                                            placeholder="campo de email" />
+                                        <label for="email">E-mail:</label>
+                                    </div>
+                                </div>
+
+                                <div class="input-group m-2">
+                                    <div class="form-floating">
+                                        <input type="text" name="nome" id="nome" class=" form-control"
+                                            placeholder="campo do nome" />
+                                        <label for="nome">Seu nome:</label>
+                                    </div>
+
+                                </div>
+
+                                <div class="input-group m-2">
+                                    <div class="form-floating">
+                                        <input type="text" name="assunto" id="assunto" class=" form-control"
+                                            placeholder="campo do assunto do email" />
+                                        <label for="assunto">Assunto:</label>
+                                    </div>
+                                </div>
+
+                                <div class="input-group m-2">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                        <label for="exampleFormControlTextarea1">Mensagem:</label>
+                                    </div>
+                                </div>
+
+                                <div class="input-group m-2">
+                                    <input type="submit" class="w-auto btn btn-outline-primary" name="enviar"
+                                        value="Enviar mensagem &raquo;" />
+                                </div>
+                            </form>
+                        </div>
                     </section>
                 </div>
-                <div class="col-5">
-                    <h3>Útimas noticias</h3>
-                    <ul class="sem-marcasdor sem-padding noticias">
-                        <li>
-                            <img src="img/thumb-pequena.jpg" alt="" />
-                            <h4>Título da notícia publicada no blog</h4>
-                            <p>
-                                texto aleatorio:-Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e tarefa
-                                feminina o homem cultiva a mandioca, mas a partir da colheita as tarefas da roça passam
-                                pra
-                                as mulheres, são elas que carregam as raízes, lavam
-                                a mandioca na água corrente do rio e depois começam a processar os alimentos, primeiro
-                                transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha <a
-                                    href="">Leia mais &raquo;</a></p>
-                        </li>
-                        <li>
-                            <img src="img/thumb-pequena.jpg" alt="" />
-                            <h4>Título da notícia publicada no blog</h4>
-                            <p>
-                                texto aleatorio:-Beiju. Às 6 horas as mulheres preparam o beiju, fazer beiju e tarefa
-                                feminina o homem cultiva a mandioca, mas a partir da colheita as tarefas da roça passam
-                                pra
-                                as mulheres, são elas que carregam as raízes, lavam
-                                a mandioca na água corrente do rio e depois começam a processar os alimentos, primeiro
-                                transformando a mandioca em polvilho, depois o polvilho vira uma massa quentinha <a
-                                    href="">Leia mais &raquo;</a></p>
-                        </li>
-                    </ul>
-                </div>
             </div>
-
             <footer class="bg-dark">
                 <div class="text-center text-white">
                     <span>&copy; 2022 - Kairo</span>
