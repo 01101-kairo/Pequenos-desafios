@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+img {
+    width: 100%;
+}
+
+a>img {
+    width: 36px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+ul,
+ol {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    margin: 15px 0 10px 0;
+}
+
+.conteudo-extra {
+    background-color: #C2C4BE;
+}
+
+.extra {
+    background-color: #f7f7f9;
+}
+
+ul li img {
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 100;
+}
