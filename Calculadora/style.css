@@ -14,7 +14,8 @@ body {
 }
 @media screen and (max-width: 600px) {
   body {
-    padding: 6em 1em;
+    padding: 6em
+      1em;
   }
 }
 #calc {
@@ -22,12 +23,17 @@ body {
   width: 400px;
   padding: 0.5em;
   background-color: #191a21;
-  color: rgb(96, 226, 107);
+  color: rgb(
+    96,
+    226,
+    107
+  );
   display: flex;
   flex-direction: column;
 }
 
-#calc h3 {
+#calc
+  h3 {
   font-size: 1.8em;
   font-weight: 300;
   color: white;
@@ -44,7 +50,11 @@ body {
   min-height: 1.6em;
 }
 #previous-operation {
-  color: rgb(70, 218, 107);
+  color: rgb(
+    70,
+    218,
+    107
+  );
   font-size: 1.8em;
 }
 
@@ -59,8 +69,11 @@ body {
   gap: 3px;
 }
 
-#buttons-container button {
-  border: 1px solid transparent;
+#buttons-container
+  button {
+  border: 1px
+    solid
+    transparent;
   border-radius: 5px;
   height: 4em;
   font-size: 1.2em;
@@ -69,20 +82,30 @@ body {
   cursor: pointer;
 }
 
-#buttons-container .number {
+#buttons-container
+  .number {
   background-color: #21222c;
 }
 
-#buttons-container button:hover {
-  border-color: rgb(70, 218, 107);
+#buttons-container
+  button:hover {
+  border-color: rgb(
+    70,
+    218,
+    107
+  );
 }
 
-#buttons-container #equal-btn {
-  grid-column: span 2;
-  grid-row: span 2;
+#buttons-container
+  #equal-btn {
+  grid-column: span
+    2;
+  grid-row: span
+    2;
   color: white;
   background-color: #ff92d0;
 }
-#buttons-container #equal-btn:hover {
+#buttons-container
+  #equal-btn:hover {
   border-color: #ec2496;
 }

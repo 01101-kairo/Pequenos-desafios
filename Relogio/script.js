@@ -5,6 +5,8 @@ const secondsHand = document.querySelector(".hand.seconds")
 const setRotation = (element, rotationPercentage) => {
     element.style.setProperty("--rotation", rotationPercentage * 360);
 }
+
+
 const setClock = () => {
     const currentDate = new Date();
 
@@ -16,6 +18,7 @@ const setClock = () => {
     setRotation(minutesHand, minutesPercentage);
     setRotation(hourHand, hoursPercentage);
 };
+
 
 setClock();
 setInterval(setClock, 1000);
