@@ -1,0 +1,16 @@
+*{
+  margin-left: 25px;
+  color: aliceblue;
+  background-color: #303030;
+}
+
+#div-1{
+  text-align: center;
+}
+
+#div-1 p{
+  color: aqua;
+  background-color: black;
+  border-radius: 15px;
+  padding: 10px;
+}
