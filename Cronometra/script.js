@@ -29,9 +29,7 @@ function timer() {
   const minutes = Math.floor((total % hour) / minute);
   const seconds = Math.floor((total % minute) / second);
 
-  document.querySelector(
-    "h1"
-  ).innerHTML = `${days} d ${hours} h ${minutes} m ${seconds} s`;
+  document.querySelector("h1").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 }
 
 function onstop() {
